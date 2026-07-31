@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="zh-HK">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>私隱政策 — 帶我搭巴士 Take Me by Bus</title>
+<meta name="description" content="Privacy policy for the Take Me by Bus / 帶我搭巴士 Hong Kong bus arrival app.">
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    margin: 0 auto; padding: 1.25rem; max-width: 44rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans HK", "PingFang HK", sans-serif;
+    line-height: 1.65; font-size: 1rem;
+    color: #191715; background: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) { body { color: #f2f0ec; background: #171614; } }
+  h1 { font-size: 1.5rem; line-height: 1.3; margin: 0 0 .25rem; }
+  h2 { font-size: 1.15rem; margin: 2rem 0 .5rem; }
+  .meta { color: #4a453f; font-size: .95rem; margin: 0 0 1.5rem; }
+  @media (prefers-color-scheme: dark) { .meta { color: #c9c4bc; } }
+  table { border-collapse: collapse; width: 100%; margin: .5rem 0 1rem; font-size: .95rem; display: block; overflow-x: auto; }
+  th, td { border: 1px solid #8a837a; padding: .4rem .6rem; text-align: left; vertical-align: top; }
+  th { background: #f2f0ec; }
+  @media (prefers-color-scheme: dark) { th { background: #26241f; } }
+  a { color: #8a0d21; }
+  @media (prefers-color-scheme: dark) { a { color: #ff9fae; } }
+  ul { padding-left: 1.25rem; }
+  footer { margin-top: 2.5rem; font-size: .9rem; color: #4a453f; }
+  @media (prefers-color-scheme: dark) { footer { color: #c9c4bc; } }
+</style>
+</head>
+<body>
+<h1>私隱政策 · Privacy Policy</h1>
+<p class="meta">
+  應用程式 Application: <strong>帶我搭巴士 / Take Me by Bus</strong><br>
+  發布者 Publisher: <strong>Taki Hor</strong><br>
+  生效日期 Effective date: <strong>2026-08-01</strong><br>
+  聯絡 Contact: <a href="mailto:takii.hor@gmail.com">takii.hor@gmail.com</a>
+</p>
+
+<h2>簡短版 · In short</h2>
+<p>本應用程式沒有帳戶、沒有廣告、沒有分析工具，亦沒有自己的伺服器。你的位置只會留在你的裝置上，永遠不會傳送出去。收藏、最近查詢及設定亦只儲存在你的裝置內。</p>
+<p>This app has no accounts, no advertising, no analytics, and no server of its own. Your location stays on your device and is never transmitted. Favourites, recent searches and settings are stored only on your device.</p>
+
+<h2>我們讀取甚麼 · What the app accesses</h2>
+<ul>
+  <li><strong>位置（前景）Location (foreground only)</strong> — 用來尋找附近巴士站、路線快搜，以及以目前位置規劃行程。應用程式不會要求背景位置權限。Used to find nearby stops, route quick lookup, and to plan a journey from where you are. Background location is never requested.</li>
+  <li><strong>網絡 Network</strong> — 向官方巴士到站時間介面查詢。To request official bus arrival times.</li>
+  <li><strong>裝置儲存空間 Device storage</strong> — 儲存收藏、最近查詢及顯示設定。To store favourites, recent searches and display preferences.</li>
+</ul>
+
+<h2>位置資料 · Location data</h2>
+<p>位置只會保存在應用程式運行時的記憶體中。它不會被寫入儲存空間，不會加入紀錄，亦不會傳送到任何伺服器。到站時間查詢是以<strong>車站編號及路線</strong>發出的，不是以座標。</p>
+<p>Your location is held in memory while the app is running. It is not written to storage, not added to any history, and not sent anywhere. Arrival-time requests are addressed by <strong>stop ID and route</strong>, never by coordinate.</p>
+<p>當你按下「用 Google Maps 步行前往此站」時，應用程式會開啟 Google Maps，並只傳送<strong>你所選車站的官方座標</strong>——不會傳送你的位置。之後由 Google 的私隱政策及條款適用。</p>
+<p>When you press “Walk to this stop with Google Maps”, the app opens Google Maps carrying only <strong>the selected stop’s official coordinates</strong> — never your own position. Google’s own policy and terms apply from that point.</p>
+<p>如果你拒絕位置權限，路線搜尋、車站搜尋、指定起點終點的行程規劃、紀錄及收藏仍然可用。If you deny location permission, route search, stop search, exact origin-to-destination planning, history and favourites all still work.</p>
+
+<h2>裝置內的儲存 · Stored on your device</h2>
+<table>
+  <tr><th>資料 Data</th><th>內容 Contents</th></tr>
+  <tr><td>收藏 Favourites</td><td>你收藏的路線及車站組合 Route-and-stop combinations you saved</td></tr>
+  <tr><td>最近查詢 Recent lookups</td><td>最多五項路線及車站查詢 Up to five route-and-stop lookups</td></tr>
+  <tr><td>最近行程 Recent journeys</td><td>最多五項行程搜尋；只儲存地點參照，不含座標 Up to five journey searches; place references only, no coordinates</td></tr>
+  <tr><td>設定 Preferences</td><td>長者模式、語言、深淺色 Text-size mode, language, colour scheme</td></tr>
+</table>
+
+<h2>外部服務 · External services</h2>
+<p>應用程式只會連接以下官方公共交通資料介面：The app contacts only these official public transport data endpoints:</p>
+<ul>
+  <li><code>data.etabus.gov.hk</code> — 九巴／龍運 KMB / Long Win</li>
+  <li><code>rt.data.gov.hk</code> — 城巴、港鐵巴士 Citybus, MTR Bus</li>
+  <li><code>data.etagmb.gov.hk</code> — 專線小巴 Green minibus</li>
+  <li><code>www.google.com</code> — 只在你按下步行導航時 only when you press the walking-directions action</li>
+</ul>
+<p>如同任何網絡請求，這些機構會看到你的 IP 位址。應用程式不會附上任何識別碼、帳戶或搜尋紀錄。As with any web request, those providers will see your IP address. The app attaches no identifier, account or search history.</p>
+
+<h2>我們沒有的東西 · What the app does not have</h2>
+<ul>
+  <li>沒有帳戶或登入 No accounts or sign-in</li>
+  <li>沒有廣告 No advertising</li>
+  <li>沒有分析或追蹤工具 No analytics or tracking SDKs</li>
+  <li>沒有當機報告工具 No crash-reporting SDK</li>
+  <li>沒有裝置識別碼或廣告識別碼 No device or advertising identifiers</li>
+  <li>沒有背景位置追蹤 No background location tracking</li>
+  <li>沒有屬於本應用程式的伺服器 No server belonging to this app</li>
+</ul>
+
+<h2>資料披露 · Disclosure</h2>
+<p>我們不會出售、出租或分享你的資料，因為我們並沒有持有任何關於你的資料。We do not sell, rent or share your data, because we hold none about you.</p>
+
+<h2>保留與刪除 · Retention and deletion</h2>
+<p>位置只存在於記憶體，關閉應用程式即消失。收藏、紀錄及設定會一直保留，直至你刪除為止：Location exists only in memory and is gone when the app closes. Favourites, history and settings remain until you remove them:</p>
+<ul>
+  <li>設定 → 清除最近查詢 Settings → Clear recent lookups</li>
+  <li>設定 → 清除最近行程 Settings → Clear recent journeys</li>
+  <li>在「收藏」中逐項移除 Remove favourites individually in the Favourites tab</li>
+  <li>解除安裝應用程式會移除全部資料 Uninstalling removes everything</li>
+</ul>
+<p>由於沒有伺服器，沒有需要向我們提出的刪除請求。Because there is no server, there is no deletion request to make to us.</p>
+
+<h2>保安限制 · Security limitations</h2>
+<p>資料儲存在你的裝置上，受你裝置本身的保安保護。任何能解鎖你裝置的人都可以看到你的收藏及最近查詢。與官方介面的連線使用 HTTPS，但我們無法控制那些介面的可用性或安全性。Data is stored on your device and protected by your device’s own security. Anyone who can unlock your device can see your favourites and recent lookups. Connections to the official endpoints use HTTPS, but we do not control those endpoints’ availability or security.</p>
+
+<h2>兒童私隱 · Children’s privacy</h2>
+<p>本應用程式是一個公共巴士到站時間工具，並非針對兒童設計，亦不會有意收集任何人的個人資料，包括兒童。由於沒有帳戶且沒有資料離開裝置，使用本應用程式不會產生兒童的個人資料紀錄。This app is a public bus arrival tool. It is not directed at children and does not knowingly collect personal information from anyone, including children. Because there are no accounts and no data leaves the device, using the app creates no personal record of a child.</p>
+
+<h2>政策變更 · Changes to this policy</h2>
+<p>如果應用程式的行為改變，本頁面會一併更新，並更新上方的生效日期。重大改變會在應用程式的更新說明中列出。If the app’s behaviour changes, this page is updated with it and the effective date above changes. Material changes are noted in the app’s release notes.</p>
+
+<h2>聯絡 · Contact</h2>
+<p>有關私隱的查詢，請電郵 For privacy questions, email
+<a href="mailto:takii.hor@gmail.com">takii.hor@gmail.com</a>。
+我們會盡快回覆。We will reply as soon as we can.</p>
+
+<footer>
+  帶我搭巴士 / Take Me by Bus · Taki Hor · 2026-08-01<br>
+  巴士資料來源：資料一線通及各營辦商官方公開資料。Bus data from DATA.GOV.HK and the operators’ official open data.
+</footer>
+</body>
+</html>
