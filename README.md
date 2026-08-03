@@ -1,9 +1,9 @@
-# Take Me by Bus — privacy policy
+# Go by Bus HK — privacy policy
 
-The public privacy policy for **帶我搭巴士 / Take Me by Bus**, a Hong Kong bus
+The public privacy policy for **轉個彎就到 / Go by Bus HK**, a Hong Kong bus
 arrival and journey-planning app.
 
-- **Policy:** <https://takiihor.github.io/take-me-by-bus-privacy/privacy.html>
+- **Policy:** <https://takiihor.github.io/go-by-bus-hk-privacy/privacy.html>
 - **Publisher:** Taki Hor
 - **Contact:** takii.hor@gmail.com
 
