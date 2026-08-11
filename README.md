@@ -4,6 +4,7 @@ The public privacy policy for **轉個彎就到 / Go by Bus HK**, a Hong Kong bu
 arrival and journey-planning app.
 
 - **Policy:** <https://takiihor.github.io/go-by-bus-hk-privacy/privacy.html>
+- **Support:** <https://takiihor.github.io/go-by-bus-hk-privacy/support.html>
 - **Publisher:** Taki Hor
 - **Contact:** takii.hor@gmail.com
 
@@ -19,8 +20,9 @@ source, no release documentation, no data, and no credentials.
 
 ## Changing the policy
 
-The policy must describe what the application actually does. Edit `privacy.html`,
-update the effective date, and push to `main`; the workflow republishes it.
+The policy and support page must describe the application accurately. Edit
+`privacy.html` or `support.html`, update the effective date when the policy
+changes, and push to `main`; the workflow republishes it.
 
 Material changes should be made together with the corresponding change in the
 app, so the published page and the in-app policy do not disagree.
