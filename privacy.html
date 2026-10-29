@@ -45,7 +45,7 @@
 <h2>我們讀取甚麼 · What the app accesses</h2>
 <ul>
   <li><strong>位置（前景）Location (foreground only)</strong> — 用來尋找附近巴士站及港鐵站、路線快搜，以及以目前位置規劃行程。應用程式不會要求背景位置權限。Used to find nearby stops and MTR stations, route quick lookup, and to plan a journey from where you are. Background location is never requested.</li>
-  <li><strong>網絡 Network</strong> — 向官方巴士到站時間及港鐵列車時間介面查詢。To request official bus arrival and MTR train times.</li>
+  <li><strong>網絡 Network</strong> — 向官方巴士到站時間、港鐵列車時間及輕鐵班次介面查詢。To request official bus arrival, MTR train and Light Rail times.</li>
   <li><strong>裝置儲存空間 Device storage</strong> — 儲存收藏、最近查詢及顯示設定。To store favourites, recent searches and display preferences.</li>
 </ul>
 
@@ -69,7 +69,7 @@
 <p>應用程式只會連接以下官方公共交通資料介面：The app contacts only these official public transport data endpoints:</p>
 <ul>
   <li><code>data.etabus.gov.hk</code> — 九巴／龍運 KMB / Long Win</li>
-  <li><code>rt.data.gov.hk</code> — 城巴、港鐵巴士、港鐵列車時間（Next Train） Citybus, MTR Bus, MTR train times (Next Train)</li>
+  <li><code>rt.data.gov.hk</code> — 城巴、港鐵巴士、港鐵列車時間（Next Train）、輕鐵班次 Citybus, MTR Bus, MTR train times (Next Train), Light Rail times</li>
   <li><code>data.etagmb.gov.hk</code> — 專線小巴 Green minibus</li>
   <li><code>www.google.com</code> — 只在你按下步行導航時 only when you press the walking-directions action</li>
 </ul>
@@ -116,7 +116,7 @@
 <footer>
   轉個彎就到 / Go by Bus HK · Taki Hor · 2026-08-01<br>
   巴士資料來源：資料一線通及各營辦商官方公開資料。Bus data from DATA.GOV.HK and the operators’ official open data.<br>
-  港鐵站資料：香港鐵路有限公司（資料一線通）；車站位置：地政總署 © 香港特別行政區政府。MTR station data: MTR Corporation (DATA.GOV.HK); station locations: Map data from Lands Department © HKSAR Government.<br>
+  港鐵站資料：香港鐵路有限公司（資料一線通）；車站位置：地政總署 © 香港特別行政區政府。MTR station data: MTR Corporation (DATA.GOV.HK); station locations: Map data from Lands Department © HKSAR Government. 渡輪、電車及山頂纜車路線：運輸署（資料一線通）；輕鐵路線及車站：香港鐵路有限公司。Ferry, tram and Peak Tram routes: Transport Department (DATA.GOV.HK); Light Rail routes and stops: MTR Corporation.<br>
   <a href="./support.html">技術支援 · Support</a> · <a href="./index.html">首頁 · Home</a>
 </footer>
 </body>
